@@ -1,0 +1,130 @@
+body {
+    background-color: #f5f5f5;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+}
+
+#main-content   {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#header {
+    text-align: center;
+    padding: 4%;
+    padding-bottom: 2%;
+    height:auto;
+}
+
+#header-main {
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+#header-secondary   {
+    font-size: 2.1rem;
+    font-weight: 600;
+}
+
+.box-heading    {
+    font-size: 1.2rem;
+    margin: 3%;
+    font-weight: 600;
+}
+
+.box-sub-text    {
+    font-size: 0.8rem;
+    margin: 5%;
+    margin-bottom: 10%;
+    font-weight: 200;
+}
+
+#header-sub-text    {
+    font-size: 1rem;
+    margin: 0 auto;
+    margin-top: 2%;
+    width: 55%;
+    font-weight: 200;
+}
+
+.attribution    {
+    font-size: 11px; 
+    text-align: center;
+    color: hsl(228, 45%, 44%);
+    box-sizing: border-box;
+    position: relative;;
+    bottom:0;
+    width: 100%;
+}
+
+#content-section    {
+    display: grid;
+    margin: 0 10%;
+    grid-template-columns: 30% 30% 30%;
+    grid-column-gap: 3%;
+    align-items: center;
+    width: auto;
+}
+
+
+.content-box    {
+    box-sizing: border-box;
+    margin:auto;
+    width: 100%;
+    margin: 10%;
+    padding: 5%;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    background-color: #fff;
+    box-shadow: 0px 5px 23px 0px rgba(69,117,153,0.33);
+
+}
+
+.box-image  {
+    text-align: right;
+    box-sizing: border-box; 
+    margin-top: 2%;
+}
+
+#box-cyan   {
+    border-top: 4px solid hsl(180, 62%, 55%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#box-red   {
+    border-top: 4px solid hsl(0, 78%, 62%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#box-yellow   {
+    border-top: 4px solid hsl(34, 97%, 64%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#box-blue   {
+    border-top: 4px solid hsl(212, 86%, 64%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+@media screen and (max-width: 600px) {
+    #content-section    {
+        grid-template-columns: 100%;
+        margin: 0;
+        grid-column-gap: 0%;
+    }
+    
+    .content-box    {
+        width: auto;
+        margin: 2% 5%;
+    }
+    
+    #main-content   {
+        margin-top: 10%;
+    }
+}
